@@ -1,0 +1,35 @@
+ body{
+   background-color: rgb(87, 7, 162);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+ }
+ form{
+   background-color: rgb(156, 115, 195);
+   display: flex;
+   padding: 10px;
+   width: 80%;
+   flex-wrap: wrap;
+   gap: 5px;
+
+ }
+ form input{
+   background-color: rgb(27, 2, 50);
+   color: white;
+   border: none;
+   outline: none;
+   flex-basis: 200px;
+   flex-grow: 1;
+   padding: 5px 10px;
+ }
+ form button{
+   background-color: rgb(131, 189, 243);
+   color: white;
+   flex-basis: 50px;
+   flex-grow: 1;
+   padding: 5px 10px;
+   border: none;
+   /* outline: none; */
+   cursor: pointer;
+ }
